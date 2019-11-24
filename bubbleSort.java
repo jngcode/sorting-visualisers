@@ -17,6 +17,8 @@ public class bubbleSort implements sortAlgorithms {
                         numbers[j] = numbers[j + 1];
                         numbers[j + 1] = temp;
                     }
+                    repaint();
+                  
                 }
             }
         }
